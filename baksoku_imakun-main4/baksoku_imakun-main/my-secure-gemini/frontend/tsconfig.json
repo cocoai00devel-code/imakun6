@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true, /* 🛡️ 最強の厳格モード。不純なコードを 0.0001秒で検知 */
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler", /* 🚀 'Node'から進化。最新のビルド環境に最適化 */
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["react", "react-dom"], /* 🛡️ React型定義を強制ロード */
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
+// Cjsx": "react-jsx",
+//     /* 👇 以下の 2 つを追加して、エディタに React を強制認識させる */
+//     "types": ["react", "react-dom"],
+//     "baseUrl": ".",
+//     "paths": {
+//       "*": ["node_modules/*", "src/*"]
+//     }
+//   },
+//   "include": ["src/**/*"] 
+// }
+
+
+
+// // {
+// //   "compilerOptions": {
+// //     "target": "ESNext",
+// //     "lib": ["DOM", "DOM.Iterable", "ESNext"],
+// //     "allowJs": false,
+// //     "skipLibCheck": true,
+// //     "esModuleInterop": true,
+// //     "allowSyntheticDefaultImports": true,
+// //     "strict": true,  /* 🛡️ 最強の厳格モードを有効化 */
+// //     "forceConsistentCasingInFileNames": true,
+// //     "module": "ESNext",
+// //     "moduleResolution": "Node",
+// //     "resolveJsonModule": true,
+// //     "isolatedModules": true,
+// //     "noEmit": true,
+// //     "jsx": "react-jsx"
+// //   },
+// //   "include": ["src"]
+// // }
